@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jake Metcalfe's Portfolio website showcasing development work, about page, blog and contact"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Bootstrap, Portfolio, Software Development"
+    />
+    <title>Jake Metcalfe Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.webp" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand mt-lg-3">
+          <span class="text-brand h4 fw-bold item right"
+            ><img
+              src="images/favicon.webp"
+              class="logo"
+              alt="The logo of Jake Metcalfe's Software Development Portfolio Website"
+            />Jake Metcalfe</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse item left" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /NAVBAR -->
+
+    <!-- HOME -->
+    <section id="home" class="full-height">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1
+              class="display-6 homePageHeading"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="700"
+            >
+              Hi I'm Jake, a future
+              <span class="text-brand auto-type"></span>
+            </h1>
+            <p class="item right main-para">
+              Highly motivated individual transitioning into the exciting world
+              of tech. Welcome to my Portfolio here you can find info about
+              myself, projects I've built, updates on my journey and much more!
+            </p>
+
+            <button class="theme-toggle-btn item right">
+              <!-- SWAPPER ICON -->
+              <svg
+                class="swap-theme-icon"
+                alt="sun and moon logo"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.5,2C5.71,3.15 4.5,5.18 4.5,7.5C4.5,9.82 5.71,11.85 7.53,13C4.46,13 2,10.54 2,7.5A5.5,5.5 0 0,1 7.5,2M19.07,3.5L20.5,4.93L4.93,20.5L3.5,19.07L19.07,3.5M12.89,5.93L11.41,5L9.97,6L10.39,4.3L9,3.24L10.75,3.12L11.33,1.47L12,3.1L13.73,3.13L12.38,4.26L12.89,5.93M9.59,9.54L8.43,8.81L7.31,9.59L7.65,8.27L6.56,7.44L7.92,7.35L8.37,6.06L8.88,7.33L10.24,7.36L9.19,8.23L9.59,9.54M19,13.5A5.5,5.5 0 0,1 13.5,19C12.28,19 11.15,18.6 10.24,17.93L17.93,10.24C18.6,11.15 19,12.28 19,13.5M14.6,20.08L17.37,18.93L17.13,22.28L14.6,20.08M18.93,17.38L20.08,14.61L22.28,17.15L18.93,17.38M20.08,12.42L18.94,9.64L22.28,9.88L20.08,12.42M9.63,18.93L12.4,20.08L9.87,22.27L9.63,18.93Z"
+                />
+              </svg>
+              Swap Themes
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /HOME -->
+
+    <!-- IMAGE SLIDER -->
+    <section id="image-slider" class="full-height px-lg-5">
+      <div class="image-container">
+        <div id="slider1">
+          <img
+            src="images/image-slider1.webp"
+            alt="Image of a laptop with the app visual studio code opened"
+          />
+          <img
+            src="images/image-slider2.webp"
+            alt="Image of a desktop in front of pink neon lighting"
+          />
+          <img
+            src="images/image-slider3.webp"
+            alt="A sign reading 'you got this'"
+          />
+          <img
+            src="images/image-slider4.webp"
+            alt="A image of a flow of information, represented by blue light"
+          />
+          <button id="prev" class="image-slider-btn">&lt;</button>
+          <button id="next" class="image-slider-btn">&gt;</button>
+        </div>
+      </div>
+    </section>
+    <!-- /IMAGE SLIDER -->
+
+    <!-- PROJECTS -->
+    <section id="projects" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row g-3 mt-5">
+          <h2 class="text-brand mt-4">Projects</h2>
+
+          <!-- CARD1 - YOUTUBE -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/youtube.webp"
+                class="card-img-top"
+                alt="Image of the YouTube HomePage"
+              />
+              <div class="card-body">
+                <h5 class="card-title">YouTube Clone</h5>
+                <p class="card-text">
+                  A Clone of YouTube's HomePage, built with HTML & CSS.
+                </p>
+                <a
+                  href="https://jagojake.github.io/YT-Clone/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/YT-Clone"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD2 - BLACKJACK -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="30"
+              data-aos-duration="500"
+            >
+              <img
+                src="images/blackjack.webp"
+                class="card-img-top"
+                alt="Image of a game of blackjack being played on an app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BlackJack Game</h5>
+                <p class="card-text">
+                  A simple Game of BlackJack, built with HTML, CSS & JavaScript.
+                </p>
+                <a
+                  href="https://jagojake.github.io/Black-Jack-Game/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/Black-Jack-Game"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD3 - PASSENGERS -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="700"
+            >
+              <img
+                src="images/passenger.webp"
+                class="card-img-top"
+                alt="Image of a app used to counter passengers as they board a train"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Passenger Counter</h5>
+                <p class="card-text">
+                  A fun passenger Counter App, built with HTML, CSS &
+                  JavaScript.
+                </p>
+                <a
+                  href="https://jagojake.github.io/Passenger-Counter/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/Passenger-Counter"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD4 - ROCK PAPER SCISSORS -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="900"
+            >
+              <img
+                src="images/rock-paper-scissors.webp"
+                class="card-img-top"
+                alt="Image of a app used to counter passengers as they board a train"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rock Paper Scissors</h5>
+                <p class="card-text">
+                  Classic Game built with HTML, CSS & JavaScript (including
+                  local storage).
+                </p>
+                <a
+                  href="https://jagojake.github.io/rock-paper-scissors/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/rock-paper-scissors"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD5 - COUNTRY BAR CHART -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/country-bar-chart.webp"
+                class="card-img-top"
+                alt="Image of a bar chart detailing country populations from around the world"
+              />
+              <div class="card-body">
+                <h5 class="card-title">D3 country bar chart</h5>
+                <p class="card-text">
+                  A bar chart detailing the populations of countries from around
+                  the world, built with D3.
+                </p>
+                <a
+                  href="https://jagojake.github.io/D3-country-bar-chart/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/D3-country-bar-chart"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD6 - ISSUE LOGGER -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="30"
+              data-aos-duration="500"
+            >
+              <img
+                src="images/issue-logger.webp"
+                class="card-img-top"
+                alt="Image of a issue logging app for employees"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Issue Logger</h5>
+                <p class="card-text">
+                  Submit, track and update any issues for employees, HTML, CSS &
+                  JavaScript.
+                </p>
+                <a
+                  href="https://jagojake.github.io/issue-tracker/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/issue-tracker"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD7 - TRIVIA GAME -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="700"
+            >
+              <img
+                src="images/trivia-game.webp"
+                class="card-img-top"
+                alt="Image of a trivia game"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Trivia Game</h5>
+                <p class="card-text">
+                  Fun movie, TV and books knowledge game built with HTML, CSS &
+                  JavaScript
+                </p>
+                <a
+                  href="https://jagojake.github.io/trivia-game/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/trivia-game"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD8 - CALCULATOR -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="900"
+            >
+              <img
+                src="images/calculator.webp"
+                class="card-img-top"
+                alt="Image of a calculator app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">
+                  Functional calculator app built using HTML, CSS & JavaScript
+                  (including local storage).
+                </p>
+                <a
+                  href="https://jagojake.github.io/calculator/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/calculator"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD9 - QUOTE GENERATOR -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/random.webp"
+                class="card-img-top"
+                alt="Image of a random quote generator"
+              />
+              <div class="card-body">
+                <h5 class="card-title">random quote generator</h5>
+                <p class="card-text">
+                  A app that generates famous quotes from around the world.
+                </p>
+                <a
+                  href="https://jagojake.github.io/random-quote-generator/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/random-quote-generator"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD10 - WEATHER APP -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/weather-app.webp"
+                class="card-img-top"
+                alt="Image of a weather app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">
+                  A app using API to detail cities weather conditions.
+                </p>
+                <a
+                  href="https://jagojake.github.io/weather-app/"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/weather-app"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD11 - REACT TODO APP -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="10"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/react-todo.webp"
+                class="card-img-top"
+                alt="Image of a todo list app"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Todo App</h5>
+                <p class="card-text">
+                  A functional todo list app built using react.
+                </p>
+                <a
+                  href="https://react-todo-app-brown-two.vercel.app/
+"
+                  target="_blank"
+                  class="btn btn-primary live-demo"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/JagoJake/react-todo-app
+"
+                  target="_blank"
+                  class="btn btn-primary"
+                  ><img
+                    src="images/github-button.webp"
+                    alt="Image of the Github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /PROJECTS -->
+
+    <!-- ABOUT -->
+    <section id="about" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-8 mt-5">
+            <h2
+              class="text-brand"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="700"
+            >
+              About Me
+            </h2>
+
+            <p
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-duration="900"
+            >
+              My previous career as a professional chef of eight years was
+              abruptly put on hold in early 2020 due to the situation we found
+              ourselves in globally, out of necessity, I, like so many others
+              had to pivot direction so I joined BRS1, Amazon’s large fulfilment
+              centre in Bristol U.K.
+            </p>
+
+            <p
+              data-aos="fade-right"
+              data-aos-delay="150"
+              data-aos-duration="900"
+            >
+              Although I didn’t realise it at the time this was truly a blessing
+              in disguise and has been a great opportunity to hone existing
+              skills and develop many more.
+            </p>
+
+            <p
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="900"
+            >
+              Through hard work and determination, I have grown into a
+              leadership position within the company, monitoring operations as
+              an FC team lead overseeing a department of 70+ Amazon Associates.
+            </p>
+
+            <p
+              data-aos="fade-right"
+              data-aos-delay="250"
+              data-aos-duration="900"
+            >
+              However, by far the most positive thing to come from this change
+              is that I have been able to make use of Amazon’s career choice, an
+              amazing program designed to assist with employee tuition, granting
+              the ability to continue working whilst also studying, gaining
+              knowledge and technical skills in a wide range of sectors, in my
+              case the exciting world of software development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /ABOUT -->
+
+    <!-- BLOG -->
+    <section id="blog" class="full-height px-lg-5 pb-5">
+      <div class="container">
+        <div class="row g-3">
+          <h2 class="text-brand mt-4">Blog</h2>
+
+          <!-- BLOG-CARD1 - C1 Month 3-March -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="850"
+            >
+              <img
+                src="images/C1-img1.webp"
+                class="card-img-top"
+                alt="picture of people studying software development from the correlation-one website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Correlation One Software Development
+                  <span class="text-brand">Month 3-March</span>
+                </h5>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#C1-Month3"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- BLOG-CARD2 - C1 Month 2 - February -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="150"
+              data-aos-duration="850"
+            >
+              <img
+                src="images/C1-img2.webp"
+                class="card-img-top"
+                alt="picture of people studying software development from the correlation-one website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Correlation One Software Development
+                  <span class="text-brand">Month 2-February</span>
+                </h5>
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#C1-Month2"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- BLOG-CARD1 - C1 Month 1 - January -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="850"
+            >
+              <img
+                src="images/C1-img3.webp"
+                class="card-img-top"
+                alt="picture of people studying software development from the correlation-one website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Correlation One Software Development
+                  <span class="text-brand">Month 1-January</span>
+                </h5>
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#C1-Month1"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /BLOG -->
+
+    <!-- MODAL C1 Month 3-March-->
+    <div
+      class="modal fade"
+      id="C1-Month3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="staticBackdropLabel3">
+              C1 Software Development - Month 3 - March
+            </h6>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Starting of with week 9 we've been learning all things CMS
+              (content management system) in particular WordPress, understanding
+              posts, categories, tags, plugins, and much more. We've explored
+              the amazing themes, plugins, and other resources available to
+              build professional sites. We also went under the hood and altered
+              the underlying HTML and CSS within WordPress to customize.
+            </p>
+            <p>
+              Week 10 & 11 have been the modules I've been looking forward to
+              most, JavaScript! Variables, functions, conditional logic, loops,
+              data types, and syntax, so much to learn and I'm really having a
+              fun time with it!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL C1 Month 2-February-->
+    <div
+      class="modal fade"
+      id="C1-Month2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="staticBackdropLabel2">
+              C1 Software Development - Month 2 - February
+            </h6>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Week 5 & 6 things have really started to progress which has been
+              amazing, we've been looking into file structure and its
+              importance, DNS (Domain Name System), web hosting, SEO (search
+              engine optimization) and VCS (Version Control Systems).
+            </p>
+            <p>
+              Git and Github have also been a big focus, understanding the
+              terminal for Git and for GitHub creating an account, creating a
+              repository, creating a branch, committing changes, using pull
+              requests and merging. The Coding hasn't stopped either, I have now
+              created a full portfolio website and hosted it with Github pages.
+            </p>
+            <p>
+              In weeks 7 & 8 we've covered UX/UI, accessibility, and inclusive
+              design in detail. Understanding mockups, being able to identify
+              low, medium, and high fidelity mockups and differentiating between
+              wireframes and prototypes. Using visual design tools such as Figma
+              we have created our own wireframes, sitemaps and personas. We've
+              also covered qualitative and quantitative data, user interviews
+              and SEO.
+            </p>
+            <p>
+              On the Career front, I have created a LinkedIn account and I have
+              started networking.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL C1 Month 1-January-->
+    <div
+      class="modal fade"
+      id="C1-Month1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="staticBackdropLabel1">
+              C1 Software Development - Month 1 - January
+            </h6>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Week 1 & 2 of studying with correlation one's software development
+              program has been great, so far we've deep-dived into HTML,
+              learning whilst building basic web page projects inside the Codio
+              IDE (Integrated development environment) and getting to grips with
+              all different types of tags, syntax, best practices and much more!
+            </p>
+            <p>
+              We’ve also taken a look at the differences between the world wide
+              web and the Internet, two terms that are often used
+              interchangeably but are far in fact two different things.
+            </p>
+            <p>
+              Learning as a community has been amazing, and seeing how others
+              choose to build and design their pages and share ideas.
+            </p>
+
+            <p>
+              Week 3 & 4 have been really interesting, we've jumped into all
+              things CSS (Cascading Style Sheets) discussing the pros and cons
+              of external, internal and inline styles. We have gone through the
+              basics like selectors, declarations, properties and values right
+              through to more complex ideas like box model, grids and flexbox.
+            </p>
+            <p>
+              Bootstrap and SCSS are two things we have also been learning this
+              past fornite, all the while using these skills to build responsive
+              and engaging projects.
+            </p>
+            <p>
+              Great feedback from my career coach Alan regarding my CV, he
+              suggested some changes which were very insightful and I
+              implemented them (mainly to showcase how skills are transferable).
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="full-height px-lg-5">
+      <main class="container main">
+        <h4 class="h4 mb-3 mt-5">
+          Interested in working together? Get in touch!
+        </h4>
+        <div id="form-submitted-msg">Form successfully submitted!</div>
+
+        <form id="exampleForm" novalidate>
+          <div class="input-group">
+            <label for="firstName" class="form-label">First name </label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              class="form-control"
+              required
+            />
+            <div class="error-msg invalid-feedback">Required</div>
+          </div>
+          <div class="input-group">
+            <label for="lastName" class="form-label">Last name </label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              class="form-control"
+              required
+            />
+            <small class="error-msg invalid-feedback">Required</small>
+          </div>
+          <div class="input-group">
+            <label for="email" class="form-label">Email </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+            <small class="error-msg invalid-feedback">Required</small>
+          </div>
+          <div class="input-group">
+            <label for="message" class="form-label">Message </label>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              class="form-control"
+              required
+            />
+            <small class="error-msg invalid-feedback">Required</small>
+          </div>
+          <div class="input-group radio">
+            <div class="form-check">
+              <input
+                type="radio"
+                id="personal"
+                name="purpose"
+                value="Personal"
+                class="form-check-input"
+                required
+              />
+              <label for="personal" class="form-check-label">Personal</label>
+              <small class="error-msg invalid-feedback">Required</small>
+            </div>
+
+            <div class="form-check">
+              <input
+                type="radio"
+                id="business"
+                name="purpose"
+                value="Business"
+                class="form-check-input"
+                required
+              />
+              <label for="business" class="form-check-label">Business</label>
+              <small class="error-msg invalid-feedback">Required</small>
+            </div>
+          </div>
+          <div class="input-group checkbox form-check">
+            <input
+              type="checkbox"
+              name="subscribe"
+              id="subscribeYes"
+              class="form-check-input"
+              required
+            />
+            <label for="subscribeYes" class="form-check-label"
+              >Subscribe to our newsletter?</label
+            >
+            <small class="error-msg invalid-feedback">Required</small>
+          </div>
+          <div class="form-btns">
+            <button type="submit" class="btn btn-primary submit" disabled>
+              SUBMIT
+            </button>
+            <button type="reset" class="btn btn-secondary">CLEAR FORM</button>
+          </div>
+        </form>
+      </main>
+    </section>
+
+    <!-- <section id="contact" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8 mt-4" data-aos="fade-up">
+            <h2 class="text-brand">Contact</h2>
+            <h4 class="h4 mb-3">
+              Interested in working together? Get in touch!
+            </h4>
+          </div>
+
+          <div
+            class="col-lg-8"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="850"
+          >
+            <form action="#" class="row g-lg-3 gy-3">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+              <div class="form-group col-md-12">
+                <textarea
+                  name=""
+                  rows="4"
+                  class="form-control"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <div class="form-group col-md-12 d-grid">
+                <button type="submit" class="btn btn-brand">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+     -->
+
+    <!-- FOOTER -->
+    <footer class="mb-5 px-lg-5" id="footer">
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-auto">
+            <p class="mb-0">&copy; Jake Metcalfe 2023</p>
+          </div>
+          <div class="col-auto">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/jake-metcalfe/"
+                ><i class="lab la-linkedin"></i
+              ></a>
+              <a href="https://github.com/JagoJake"
+                ><i class="lab la-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+    <script src="JS/typed.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Software Developer",
+          "Front-end Developer",
+          "Back-end Developer",
+          "Full-stack Developer",
+        ],
+        typeSpeed: 70,
+        backSpeed: 25,
+        loop: true,
+      });
+    </script>
+    <script src="JS/index.js"></script>
+    <script src="JS/contact.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+
+      // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+
+      // Add Firebase products that you want to use
+      import { getAuth } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js";
+      import { getFirestore } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js";
+    </script>
+  </body>
+</html>
